@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.container{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__content{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-right: 30px;
+}
+
+.container__content__title{
+    font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+}
+
+.container__content__text{
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container__content__strong{
+    color: #22D4FD;
+}
+
+.container__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__links__link{
+    background-color: #22D4FD;
+    width: 220px;
+    padding:20px 0;
+    text-align: center;
+    border-radius: 16px; 
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 30px;
+}
