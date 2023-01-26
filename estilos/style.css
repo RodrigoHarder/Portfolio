@@ -15,28 +15,30 @@ body{
 }
 
 .container{
-    margin: 10% 15%;
+    margin: 10% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .container__content{
-    width: 615px;
+    
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    margin-right: 30px;
+    gap: 3em;
+    padding-right: 5%;
+    width: 800px;
 }
 
 .container__content__title{
-    font-size: 36px;
+    font-size: 2em;
     font-family: 'Roboto Mono', monospace;
     text-align: justify;
 }
 
 .container__content__text{
-    font-size: 24px;
+    font-size: 1.5em;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -52,13 +54,13 @@ body{
 .container__links__link{
     background-color: #22D4FD;
     width: 220px;
-    padding:20px 0;
+    padding: 1em 0;
     text-align: center;
     border-radius: 16px; 
     text-decoration: none;
     color:#000000;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    font-size: 24px;
-    margin-right: 30px;
+    font-size: 1.5em;
+    margin-right: 1em ;
 }
